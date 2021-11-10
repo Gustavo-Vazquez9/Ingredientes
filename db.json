@@ -1,16 +1,114 @@
+
 {
   "ingredientes":
   [
     {
-      "name":"Jitomate",
-      "unidad":
-        [
-          {"tipo":"Pza"},
-          {"tipo":"G"}
-        ]
+       "id": 1,
+       "name": "Jitomate",
+       "price": "16.50",
+       "unit": [
+          {
+             "type": "Pza"
+          },
+          {
+             "type": "G"
+          },
+          {
+             "type": "Kg"
+          }
+       ],
+       "weight": ".120"
     },
     {
-      "name":"Azucar"
+       "id": 2,
+       "name": "Limon",
+       "price": "20",
+       "unit": [
+          {
+             "type": "Pza"
+          },
+          {
+             "type": "G"
+          },
+          {
+             "type": "Kg"
+          }
+       ],
+       "weight": ".135"
+    },
+    {
+       "id": 3,
+       "name": "Azucar",
+       "price": "29",
+       "unit": [
+          {
+             "type": "Cda"
+          },
+          {
+             "type": "G"
+          },
+          {
+             "type": "Kg"
+          },
+          {
+             "type": "Pzca"
+          },
+          {
+             "type": "Tza"
+          }
+       ],
+       "weight": "0"
+    },
+    {
+       "id": 4,
+       "name": "Cilantro",
+       "price": "7",
+       "unit": [
+          {
+             "type": "Pza"
+          },
+          {
+             "type": "Rma"
+          },
+          {
+             "type": "H"
+          },
+          {
+             "type": "C/S"
+          }
+       ],
+       "weight": ".10"
+    },
+    {
+       "id": 5,
+       "name": "Huevo",
+       "price": "42",
+       "unit": [
+          {
+             "type": "Pza"
+          },
+          {
+             "type": "Kg"
+          },
+          {
+             "type": "Y/C"
+          }
+       ],
+       "weight": ".60"
+    },
+    {
+       "id": 6,
+       "name": "Carne molida de cerdo",
+       "price": "107",
+       "unit": [
+          {
+             "type": "Kg"
+          },
+          {
+             "type": "g"
+          }
+       ],
+       "weight": "0"
     }
   ]
 }
