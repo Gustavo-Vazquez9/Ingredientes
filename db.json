@@ -1,7 +1,4 @@
-
-{
-  "ingredientes":
-  [
+[
     {
        "id": 1,
        "name": "Jitomate",
@@ -111,4 +108,4 @@
        "weight": "0"
     }
   ]
-}
+
