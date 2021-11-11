@@ -1,113 +1,362 @@
 {
-    "ingredientes":
-    [
+  "ingredientes": [
     {
-       "id": 1,
-       "name": "Jitomate",
-       "price": "16.50",
-       "unit": [
-          {
-             "type": "Pza"
-          },
-          {
-             "type": "G"
-          },
-          {
-             "type": "Kg"
-          }
-       ],
-       "weight": ".120"
+      "id": 1,
+      "name": "Jitomate",
+      "price": "16.50",
+      "unit": [
+        {
+          "type": "Pza"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": ".120"
     },
     {
-       "id": 2,
-       "name": "Limon",
-       "price": "20",
-       "unit": [
-          {
-             "type": "Pza"
-          },
-          {
-             "type": "G"
-          },
-          {
-             "type": "Kg"
-          }
-       ],
-       "weight": ".135"
+      "id": 2,
+      "name": "Limon",
+      "price": "20",
+      "unit": [
+        {
+          "type": "Pza"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": ".135"
     },
     {
-       "id": 3,
-       "name": "Azucar",
-       "price": "29",
-       "unit": [
-          {
-             "type": "Cda"
-          },
-          {
-             "type": "G"
-          },
-          {
-             "type": "Kg"
-          },
-          {
-             "type": "Pzca"
-          },
-          {
-             "type": "Tza"
-          }
-       ],
-       "weight": "0"
+      "id": 3,
+      "name": "Azucar",
+      "price": "29",
+      "unit": [
+        {
+          "type": "Cda"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "Pzca"
+        },
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
     },
     {
-       "id": 4,
-       "name": "Cilantro",
-       "price": "7",
-       "unit": [
-          {
-             "type": "Pza"
-          },
-          {
-             "type": "Rma"
-          },
-          {
-             "type": "H"
-          },
-          {
-             "type": "C/S"
-          }
-       ],
-       "weight": ".10"
+      "id": 4,
+      "name": "Cilantro",
+      "price": "7",
+      "unit": [
+        {
+          "type": "Pza"
+        },
+        {
+          "type": "Rma"
+        },
+        {
+          "type": "H"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": ".10"
     },
     {
-       "id": 5,
-       "name": "Huevo",
-       "price": "42",
-       "unit": [
-          {
-             "type": "Pza"
-          },
-          {
-             "type": "Kg"
-          },
-          {
-             "type": "Y/C"
-          }
-       ],
-       "weight": ".60"
+      "id": 5,
+      "name": "Huevo",
+      "price": "42",
+      "unit": [
+        {
+          "type": "Pza"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "Y/C"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": ".60"
     },
     {
-       "id": 6,
-       "name": "Carne molida de cerdo",
-       "price": "107",
-       "unit": [
-          {
-             "type": "Kg"
-          },
-          {
-             "type": "g"
-          }
-       ],
-       "weight": "0"
+      "id": 6,
+      "name": "Carne molida de cerdo",
+      "price": "107",
+      "unit": [
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 7,
+      "name": "Fecula de maiz",
+      "price": "39",
+      "unit": [
+        {
+          "type": "Cda"
+        },
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 8,
+      "name": "Salsa de soya",
+      "price": "64",
+      "unit": [
+        {
+          "type": "Cda"
+        },
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 9,
+      "name": "Sal",
+      "price": "12.70",
+      "unit": [
+        {
+          "type": "Pzca"
+        },
+        {
+          "type": "C/S"
+        },
+        {
+          "type": "G"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 10,
+      "name": "Bicarbonato",
+      "price": "18",
+      "unit": [
+        {
+          "type": "Cda"
+        },
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "Pzca"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 11,
+      "name": "Pimienta blanca",
+      "price": "68.50",
+      "unit": [
+        {
+          "type": "Cda"
+        },
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "Pzca"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 12,
+      "name": "Hueso de puerco",
+      "price": "5",
+      "unit": [
+        {
+          "type": "Pza"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": ".70"
+    },
+    {
+      "id": 13,
+      "name": "Arroz",
+      "price": "33.90",
+      "unit": [
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 14,
+      "name": "Agua",
+      "price": "10",
+      "unit": [
+        {
+          "type": "Ml"
+        },
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "L"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 15,
+      "name": "Cebollino",
+      "price": "24.90",
+      "unit": [
+        {
+          "type": "Pza"
+        },
+        {
+          "type": "Rma"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": ".30"
+    },
+    {
+      "id": 16,
+      "name": "Jengibre",
+      "price": "190",
+      "unit": [
+        {
+          "type": "Cda"
+        },
+        {
+          "type": "Trozo"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
+    },
+    {
+      "id": 17,
+      "name": "Fecula de maiz",
+      "price": "39",
+      "unit": [
+        {
+          "type": "Cda"
+        },
+        {
+          "type": "Tza"
+        },
+        {
+          "type": "Kg"
+        },
+        {
+          "type": "G"
+        },
+        {
+          "type": "C/S"
+        }
+      ],
+      "weight": "0"
     }
   ]
 }
